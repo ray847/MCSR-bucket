@@ -8,7 +8,7 @@
   "installer": {
     "script": [
       "if (!(Test-Path \"$dir\\jingle.cmd\")) {",
-      "  Self-Content -Path \"$dir\\jingle.cmd\" -Value '@start javaw -jar \"\"%~dp0Jingle-1.3.0.jar\"\" %*'",
+      "  Set-Content -Path \"$dir\\jingle.cmd\" -Value '@start javaw -jar \"\"%~dp0Jingle-1.3.0.jar\"\" %*'",
       "}"
     ]
   },
