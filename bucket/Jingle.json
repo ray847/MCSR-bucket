@@ -4,7 +4,7 @@
   "homepage": "https://github.com/DuncanRuns/Jingle",
   "license": "MIT",
   "url": "https://github.com/DuncanRuns/Jingle/releases/download/v1.3.0/Jingle-1.3.0.jar",
-  "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "hash": "9e6810af63835491e337276f90d8d5f6b41b45f7f51e0c86ac0b3208675c857a",
   "installer": {
     "script": [
       "if (!(Test-Path \"$dir\\jingle.cmd\")) {",
