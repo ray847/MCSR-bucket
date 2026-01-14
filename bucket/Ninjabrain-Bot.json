@@ -8,7 +8,7 @@
   "installer": {
     "script": [
       "if (!(Test-Path \"$dir\\ninbot.cmd\")) {",
-        "    Set-Content -Path \"$dir\\ninjabrain.cmd\" -Value '@start javaw -jar \"\"%~dp0Ninjabrain-Bot-1.5.1.jar\"\" %*'",
+        "    Set-Content -Path \"$dir\\ninbot.cmd\" -Value '@start javaw -jar \"\"%~dp0Ninjabrain-Bot-1.5.1.jar\"\" %*'",
         "}"
     ]
   },
