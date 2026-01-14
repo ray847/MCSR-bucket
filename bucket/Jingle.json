@@ -21,6 +21,6 @@
   ],
   "suggest": {
     "java": "java/openjdk"
-  }
+  },
   "checkver": "github"
 }
